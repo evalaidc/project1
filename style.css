@@ -1,0 +1,143 @@
+header {
+  width: 1200px;
+  height: auto;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+.reset{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+}
+body {
+  background-image: url('http://livedesignonline.com/site-files/livedesignonline.com/files/gallery_images/Community%20Center%20with%20mosaic%20steps%20and%20new%20Arbor%20wall%20and%20backdrops.JPG?1431975961');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: fixed;
+  font-family: 'Roboto Slab', serif;
+}
+h1, p,li {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+p, li{
+  text-align: left
+}
+.board {
+  height: 500px;
+  width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.board > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+  height: 500px;
+  width: 400px;
+}
+.post{
+  background-color: rgba(223,220,211,.4	);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+}
+#post1 {
+  background-image: url('img/cookies.png');
+  /*source: http://www.annfercookies.com/wp-content/uploads/2013/10/cookie21.jpg*/
+
+}
+#post2 {
+  background-image: url('http://colorama.fiestafactorydirect.com/img/tablesetting/lapis_lunchPlate.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#post3 {
+  background-image: url('img/cookiemons.png');
+  /*source: https://pbs.twimg.com/profile_images/552145045663408129/egywNuyx.png*/
+
+}
+.disc {
+  background-image: url('http://pngimg.com/upload/cookie_PNG13643.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  color: white;
+  border: 1px solid black;
+  /*allows for pointer on hand to form when hovering over discs*/
+  cursor:pointer;
+  cursor:hand;
+  background-color: #996300;
+
+}
+#disc1 {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#disc2 {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#disc3 {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+#disc4 {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.active {
+  background-color: red;
+  border: 3px solid white;
+}
+
+/* if you want to incorporate the clickdown bar or the buttons to increase and decease amt.
+#disc5 {
+  width: 300px;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#disc6 {
+  width: 350px;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#disc7 {
+  width: 400px;
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
