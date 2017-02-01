@@ -33,7 +33,7 @@ $('.post').on('click', function() {
     setTimeout(function(){
       alert('You Won! The cookie monster thanks you for your help!')
     },2000)
-  }
+  };
   // reset button to refresh page and restart
   $('button').on('click', function(){
     location.reload(true);
