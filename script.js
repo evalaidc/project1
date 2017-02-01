@@ -33,16 +33,12 @@ $('.post').on('click', function() {
   //   clearInterval()
 
   // var won = setInterval(wonAlert(),5000);
-  setTimeout(function(){
-    if ($('#post3').children().length === 4) {
-    alert('You Won! The cookie monster thanks you for your help!')
-    }
-},3000)
-    // clearInterval();
-  // }
-
-});
-
-$('button').on('click', function(){
-  $('.disc').appendTo($('#post1'))
-})
+    if ($('#post3').children().length == 4) {
+    setTimeout(function(){
+      alert('You Won! The cookie monster thanks you for your help!')
+    },3000)
+  }
+//   $('button').on('click', function(){
+//     $('.disc').prependTo('#post1');
+//   });
+// });
