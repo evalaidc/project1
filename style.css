@@ -16,7 +16,7 @@ body {
   background-image: url('http://livedesignonline.com/site-files/livedesignonline.com/files/gallery_images/Community%20Center%20with%20mosaic%20steps%20and%20new%20Arbor%20wall%20and%20backdrops.JPG?1431975961');
   background-size: cover;
   background-repeat: no-repeat;
-  display: fixed;
+  display: block;
   font-family: 'Roboto Slab', serif;
 }
 h1, p,li {
@@ -75,7 +75,6 @@ p, li{
   border: 1px solid black;
   /*allows for pointer on hand to form when hovering over discs*/
   cursor:pointer;
-  cursor:hand;
   background-color: #996300;
 
 }
