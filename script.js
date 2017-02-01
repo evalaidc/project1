@@ -42,3 +42,7 @@ $('.post').on('click', function() {
   // }
 
 });
+
+$('button').on('click', function(){
+  $('.disc').appendTo($('#post1'))
+})
