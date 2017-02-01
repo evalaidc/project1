@@ -32,7 +32,7 @@ $('.post').on('click', function() {
       // sets delay time until function runs
     setTimeout(function(){
       alert('You Won! The cookie monster thanks you for your help!')
-    },3000)
+    },2000)
   }
   // reset button to refresh page and restart
   $('button').on('click', function(){
