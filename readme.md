@@ -5,7 +5,7 @@ The approach taken was to think about piece by piece what needed to be done. Fir
 
 Simply with mouse clicks, you can play this game, so it relies more on your logic.
 
-Some unsolved problems were how to get the jQuery UI draggable and droppable to be used instead of having to click each post and column.
+Some unsolved problems were how to get the jQuery UI draggable and droppable to be used instead of having to click each post and column. Also another issue has been getting the items to reset to the first column without refreshing the page.
 
 User Stories:
 As a user, I should be able to move the cookies/disks left and right so that I can functionally completely the game.

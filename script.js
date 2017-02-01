@@ -28,17 +28,16 @@ $('.post').on('click', function() {
     selection = true;
   }
   // if player gets all cookies in order to cookie monster.
-  // if ($('#post3').children().length === 4) {
-  //   setInterval(wonAlert(), 2000);
-  //   clearInterval()
-
-  // var won = setInterval(wonAlert(),5000);
     if ($('#post3').children().length == 4) {
+      // sets delay time until function runs
     setTimeout(function(){
       alert('You Won! The cookie monster thanks you for your help!')
     },3000)
   }
-//   $('button').on('click', function(){
-//     $('.disc').prependTo('#post1');
-//   });
-// });
+  // reset button to refresh page and restart
+  $('button').on('click', function(){
+    location.reload(true);
+    // $('.disc').sort().prependTo('#post1');
+    // $('#post1').sort(function(a,b) {return 1-4});
+  });
+});
