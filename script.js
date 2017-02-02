@@ -8,7 +8,7 @@ $('.post').on('click', function() {
       // value of selected box
     var value1 = $('.active').text();
       // # in selected Post's top cookie
-    var value2 = $(this).children(':first-child').text();
+    var value2 = $(this).children(':first-child').text(); //// It took me a second to understand that "this" is the destination location. Essentially user step 2. Maybe a something more symantic than value1, value2.
     // checks to see if there is a cookie at the place already
     // or if the cookie is small enough to go on top.
     if ($(this).children().length === 0 || +value1 < +value2) {
