@@ -20,6 +20,7 @@ body {
   background-image: url('http://livedesignonline.com/site-files/livedesignonline.com/files/gallery_images/Community%20Center%20with%20mosaic%20steps%20and%20new%20Arbor%20wall%20and%20backdrops.JPG?1431975961');
   background-size: cover;
   background-repeat: no-repeat;
+  background: absolute;
   display: flex;
   flex-direction: column;
   align-content: center;
