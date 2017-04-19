@@ -8,27 +8,35 @@
   </head>
   <body>
     <header>
-    <h1> Cookies For Who? </h1>
-      <p><strong>How you win the game:</strong> move all the cookies from the jar on the left to the Cookie Monster.
-      </p>
-      <p><strong>Here are the rules:</strong></p>
-        <ul>
-          <li>Move only one cookie at a time.</li>
-          <li>A larger cookie may not be place atop of a smaller cookie. The producers of Seaseme Street want to teach the Cookie Monster to be patient.</li>
-          <li>All cookies, except one being moved, must be in the jar, on the plate, or on the Cookie Monster's plate.</li>
-        </ul>
+      <div class='textBox'>
+        <h1> Cookies For Who? </h1>
+        <div class="instructions">
+          <p><strong>How you win the game:</strong></p>
+            <p id="winInst">move all the cookies from the jar on the left to the Cookie Monster.</p>
+          <p><strong>Here are the rules:</strong></p>
+        </div>
+            <ul>
+              <li>Move only one cookie at a time.</li>
+              <li>A larger cookie may not be place atop of a smaller cookie. The producers of Seaseme Street want to teach the Cookie Monster to be patient.</li>
+              <li>All cookies, except one being moved, must be in the jar, on the plate, or on the Cookie Monster's plate.</li>
+            </ul>
+      </div>
     </header>
-    <div class=reset><button type='button'>RESET</button></div>
-    <div class='board'>
-      <div class='post' id='post1'>
-          <div class=' disc' id='disc1'>1</div>
-          <div class=' disc' id='disc2'>2</div>
-          <div class=' disc' id='disc3'>3</div>
-          <div class=' disc' id='disc4'>4</div>
-      </div>
-      <div class='post' id='post2'>
-      </div>
-      <div class='post' id='post3'>
+    <div class='boardContainer'>
+      <div class=reset><button type='button'>RESET</button></div>
+      <div class='board'>
+        <div class='post' id='post1'>
+            <div class=' disc' id='disc1'>1</div>
+            <div class=' disc' id='disc2'>2</div>
+            <div class=' disc' id='disc3'>3</div>
+            <div class=' disc' id='disc4'>4</div>
+            <div class=' disc' id='disc5'>5</div>
+            <div class=' disc' id='disc6'>6</div>
+        </div>
+        <div class='post' id='post2'>
+        </div>
+        <div class='post' id='post3'>
+        </div>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
